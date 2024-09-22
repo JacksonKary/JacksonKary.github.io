@@ -1,0 +1,10 @@
+div {
+  text-align: center;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  background-image: url('./assets/images/WhiteMarble-XL(1920x1080)-opt2.webp');
+  background-attachment: fixed;
+}
