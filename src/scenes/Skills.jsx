@@ -121,7 +121,7 @@ function Skills() {
                 </motion.div>
 
                 <motion.div
-                    className="mb-16 p-4 gap-2 flex flex-wrap justify-center items-center"
+                    className="mb-16 xl:mb-48 p-4 gap-2 flex flex-wrap justify-center items-center"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.2 }}
