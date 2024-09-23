@@ -38,7 +38,7 @@ function Projects() {
             <div className="mx-auto items-center text-center grid grid-cols-1 xl:grid-cols-2 gap-12 mt-12 mb-16">
                 {data.map((project, index) => (
                     <motion.div
-                        className=""
+                        className="h-full"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, amount: 0.5 }}
