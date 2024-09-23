@@ -103,7 +103,7 @@ function Interest() {
                     </div>
 
                     <p className='mt-32 xs:mt-40 mb-10 xs:mb-20 px-10'>
-                        At university, I joined UMN Valorant, a collegiate esports team competing in Valorant tournaments.
+                        At university, I joined UMN Valorant, a collegiate esports team competing in Valorant, a 5v5 tactical first-person shooter game.
                         I was on the varsity roster for three semesters and made four lifelong friends.
                     </p>
 
