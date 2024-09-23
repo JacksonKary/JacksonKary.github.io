@@ -36,7 +36,7 @@ function Interest() {
             </motion.div>
 
 
-            <div className='flex flex-col xl:flex-row xl:justify-center gap-20 xl:gap-5 mt-36 mb-9'>
+            <div className='flex flex-col xl:flex-row xl:justify-center gap-20 xl:gap-1 xl+:gap-5 mt-36 mb-9 xl:mb-40'>
 
                 {/* Tennis */}
                 <motion.div
@@ -62,7 +62,7 @@ function Interest() {
 
                 {/* Personal Training */}
                 <motion.div
-                    className="relative bg-stone-500 rounded-3xl shadow-2xl xl:shadow-md aspect-square      mb-20 xl:mb-0  h-auto w-full xxs:h-80 xxs:w-80  xs:h-96 xs:w-96 mx-auto"
+                    className="relative bg-stone-500 rounded-3xl shadow-2xl xl:shadow-md aspect-square      mb-20 xl:mb-0  h-auto w-full xxs:h-80 xxs:w-80  xs:h-96 xs:w-96 xl:w-80 xl+:w-96 mx-auto"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
@@ -99,7 +99,6 @@ function Interest() {
                     <div className='absolute -inset-32 h-60 xs:h-64 w-7/12 xs:w-1/2 bg-gradient-to-tr from-black bg-gray-500 rounded-xl shadow-2xl mx-auto'>
                         <img src={esports} alt="Picture of Valorant agent with UMN jacket" className="h-60 xs:h-64 m-auto rounded-2xl mt-0 px-2" />
                         {/* image credit: https://www.facebook.com/share/g/axUa2S5Gykp5BNHa/ */}
-
                     </div>
 
                     <p className='mt-32 xs:mt-40 mb-10 xs:mb-20 px-10'>
