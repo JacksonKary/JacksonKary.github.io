@@ -24,9 +24,10 @@ function Home() {
                     }}
                 >
                     <p className='text-center lg:text-left text-lg md:mt-20'>
-                        I graduated from the University of Minnesota with a Bachelors of Science in Computer Science in December of 2023.
-
-                        I currently work as a software developer at DataAnnotation, where I train AI models to better understand programming. Outside of work, I enjoy weightlifting and tennis.
+                        I graduated with a Bachelor of Science in Computer Science from the University of Minnesota in December 2023.
+                        Afterward, I worked as a software developer at DataAnnotation, where I trained AI models to improve their understanding of programming.
+                        Currently, I’m a software integration specialist at Lansworth Pharma Self Serve.
+                        Outside of work, I enjoy weightlifting and playing tennis.
                     </p>
                 </motion.div>
 
