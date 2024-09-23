@@ -10,18 +10,23 @@ module.exports = {
     extend: {
       screens: {
         // Custom breakpoints
+        'xl+': '1445px',
         'md+': '875px',
         'xs': '540px',
         'xxs': '400px'
       },
       margin: {
         // Used as left margin for signature img
+        '1.5': '6px',
         'vw-2': '2vw',
         'vw-4': '4vw',
         'vw-6': '6vw',
         'vw-8': '8vw',
         'vw-11': '11vw',
         'vw-15': '15vw',
+      },
+      borderWidth: {
+        '6': '6px',
       },
       fontFamily: {
         montserrat: ["Montserrat", "serif"],
