@@ -77,7 +77,7 @@ function Contact() {
 
             {/* Contact Form */}
             <motion.div
-                className="flex mb-28 w-5/6 mx-auto"
+                className="flex mb-28 xl:mb-40 w-5/6 mx-auto"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
