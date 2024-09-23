@@ -38,6 +38,7 @@ function Projects() {
             <div className="mx-auto items-center text-center grid grid-cols-1 xl:grid-cols-2 gap-12 mt-12 mb-16">
                 {data.map((project, index) => (
                     <motion.div
+                        key = {index}
                         className="h-full"
                         initial="hidden"
                         whileInView="visible"
