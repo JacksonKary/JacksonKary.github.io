@@ -1,24 +1,24 @@
 #links {
-    position: relative;
-    overflow: hidden;
-  }
+  position: relative;
+  overflow: hidden;
+}
   
-  #links a {
-    position: relative;
-  }
-  
-  #links a::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background-color: #a8a29e; /* Border color */
-    transition: width 0.2s ease;
-    transform: translateX(-50%); /* Center the border */
-  }
-  
-  #links a:hover::before {
-    width: 100%; /* Expand to full width on hover */
-  }
+#links a {
+  position: relative;
+}
+
+#links a::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #a8a29e; /* Border color */
+  transition: width 0.2s ease;
+  transform: translateX(-50%); /* Center the border */
+}
+
+#links a:hover::before {
+  width: 100%; /* Expand to full width on hover */
+}

@@ -27,6 +27,7 @@ import { FaDocker } from "react-icons/fa";
 import { SiTableau } from "react-icons/si";
 import { FaProjectDiagram } from "react-icons/fa";
 import { IoDocumentTextOutline } from "react-icons/io5";
+import { SiGimp } from "react-icons/si";
 import { FaGoogle } from "react-icons/fa";
 import { DiLinux } from "react-icons/di";
 import { TbDeviceDesktopCode } from "react-icons/tb";
@@ -41,20 +42,6 @@ import { MdOutlineWeb } from "react-icons/md";
 import { SiPostman } from "react-icons/si";
 import { DiUbuntu } from "react-icons/di";
 
-
-
-/* Structure of `skills` */
-/*
-    const skills = [
-        programmingLanguages,
-
-        webDevelopmentStack,
-
-        frontend,
-
-        skills
-    ]
-*/
 
 
 const programmingLanguages = [
@@ -146,6 +133,10 @@ const technologies = [
     {
         name: "Documentation (Doxygen)",
         icon: <IoDocumentTextOutline />
+    },
+    {
+        name: "GIMP",
+        icon: <SiGimp />
     },
     {
         name: "Google Test",

@@ -38,7 +38,6 @@ function App() {
         <div id="contact">
           <Contact />
         </div>
-        <Divider />
       </div>
 
       <div id="bottom">

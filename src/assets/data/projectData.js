@@ -1,5 +1,5 @@
 /* Import project thumbnails */
-import VME from '../../assets/images/Virtual-Memory.webp'; 
+import VME from '../../assets/images/Virtual-Memory.webp';
 import Knights from '../../assets/images/Knights.webp';
 import uThread from '../../assets/images/uThread-Library.webp';
 import serverThumb from '../../assets/images/HTTP-Server-Thumb.webp';
