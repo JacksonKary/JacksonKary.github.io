@@ -124,7 +124,7 @@ function Skills() {
                     className="mb-16 p-4 gap-2 flex flex-wrap justify-center items-center"
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, amount: 0.5 }}
+                    viewport={{ once: true, amount: 0.2 }}
                     transition={{ delay: 0.6, duration: 0.5 }}
                     variants={{
                         hidden: { opacity: 0, y: 30 },
