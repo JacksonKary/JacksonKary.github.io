@@ -34,7 +34,7 @@ const MediaIcons = ({ iconSize }) => {
                     target="_blank"
                 >
                     {/* Background effect on hover */}
-                    <div className="absolute inset-0 h-5/6 bg-stone-400 bg-opacity-0 group-hover:bg-opacity-20 group-hover:shadow-sm duration-200 transition-150"></div>
+                    <div className="absolute inset-0 h-5/6 bg-stone-400 bg-opacity-0 group-hover:bg-opacity-30 group-hover:shadow-sm duration-200 transition-150"></div>
 
                     {/* PNG Icon */}
                     <img src={Diploma} alt="Diploma (B.S. Comp. Sci.)" className="relative z-10 h-8" />
