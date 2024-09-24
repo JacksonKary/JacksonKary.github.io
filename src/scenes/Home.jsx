@@ -24,7 +24,7 @@ function Home() {
                 >
                     <p className='text-center lg:text-left text-lg md:mt-20'>
                         I graduated with a Bachelor of Science in Computer Science from the University of Minnesota in December 2023.
-                        Upon graduating, I worked as a software developer at DataAnnotation, where I trained AI models to improve their understanding of programming.
+                        Upon graduating, I worked as a software developer at DataAnnotation, where I trained AI models to improve at programming.
                         Currently, I’m a software integration specialist at Lansworth Pharma Self Serve.
                         Outside of work, I enjoy weightlifting and playing tennis.
                     </p>
