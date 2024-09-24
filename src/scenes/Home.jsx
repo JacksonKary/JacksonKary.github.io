@@ -9,7 +9,6 @@ function Home() {
 
             <img alt="profile" src={profileImg} className='mx-auto md:mx-0 w-full max-w-72 rounded-full shadow-2xl md:mt-36 mb-6 md:mb-32' />
 
-
             <div className="flex flex-col items-center lg:items-start justify-center basis-2/5  gap-2">
                 {/* Biography */}
                 <motion.div
@@ -25,12 +24,11 @@ function Home() {
                 >
                     <p className='text-center lg:text-left text-lg md:mt-20'>
                         I graduated with a Bachelor of Science in Computer Science from the University of Minnesota in December 2023.
-                        Afterward, I worked as a software developer at DataAnnotation, where I trained AI models to improve their understanding of programming.
+                        Upon graduating, I worked as a software developer at DataAnnotation, where I trained AI models to improve their understanding of programming.
                         Currently, I’m a software integration specialist at Lansworth Pharma Self Serve.
                         Outside of work, I enjoy weightlifting and playing tennis.
                     </p>
                 </motion.div>
-
 
                 <br />
 
