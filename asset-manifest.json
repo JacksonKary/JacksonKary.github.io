@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7419def0.css",
-    "main.js": "/static/js/main.1d9347ce.js",
+    "main.css": "/static/css/main.308c4c58.css",
+    "main.js": "/static/js/main.94c8486e.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/Tennis.webp": "/static/media/Tennis.d9adaf6e79a04f436e50.webp",
     "static/media/t3-fin.webp": "/static/media/t3-fin.d73ee71fff0c8804bf51.webp",
@@ -18,12 +18,12 @@
     "static/media/diploma.webp": "/static/media/diploma.dc53770bb850afc56884.webp",
     "static/media/external-link-svgrepo-com.svg": "/static/media/external-link-svgrepo-com.eb94cbee470f12f999745563467be8dd.svg",
     "index.html": "/index.html",
-    "main.7419def0.css.map": "/static/css/main.7419def0.css.map",
-    "main.1d9347ce.js.map": "/static/js/main.1d9347ce.js.map",
+    "main.308c4c58.css.map": "/static/css/main.308c4c58.css.map",
+    "main.94c8486e.js.map": "/static/js/main.94c8486e.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7419def0.css",
-    "static/js/main.1d9347ce.js"
+    "static/css/main.308c4c58.css",
+    "static/js/main.94c8486e.js"
   ]
 }
