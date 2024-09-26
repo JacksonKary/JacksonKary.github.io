@@ -18,8 +18,8 @@ function Project({ thumbnail, title, githubUrl, highlights, description }) {
             <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-30 transition-opacity duration-200 rounded-md"></div>
           </div>
 
-          {/* External Link Icon - For lg+ screens */}
-          <div className='hidden lg:block'>
+          {/* External Link Icon */}
+          <div className=''>
             <img src={externalLink} alt="external link icon"
               className="absolute inset-0 w-10 h-10 m-auto opacity-0 group-hover:opacity-80 transition-opacity duration-200 bg-white bg-opacity-50 rounded-lg shadow-md z-30"
             />
