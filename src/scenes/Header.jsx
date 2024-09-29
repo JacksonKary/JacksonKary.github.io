@@ -67,7 +67,7 @@ const Header = () => {
                     </button>
 
 
-                    <div className={`flex-col justify-between ${isOpen ? 'min-h-screen max-h-screen opacity-100' : 'min-h-0 max-h-0 opacity-0'} transition-all duration-200 ease-in-out`}>
+                    <div className={`flex-col justify-between ${isOpen ? 'min-h-screen max-h-screen flex-col' : 'min-h-0 max-h-0 hidden'} transition-all duration-200 ease-in-out`}>
                         <AnchorLink href="#home" onClick={toggleMenu} className="border-y-2 border-black flex items-center pt-8">Home</AnchorLink>
                         <AnchorLink href="#skills" onClick={toggleMenu} className="border-b-2 border-black flex items-center pt-8">Skills</AnchorLink>
                         <AnchorLink href="#projects" onClick={toggleMenu} className="border-b-2 border-black flex items-center pt-8">Projects</AnchorLink>
