@@ -1,4 +1,4 @@
-import profileImg from '../assets/images/t3-fin.webp';
+import profileImg from '../assets/images/profile.webp';
 import MediaIcons from '../components/MediaIcons';
 
 import { motion } from "framer-motion"
