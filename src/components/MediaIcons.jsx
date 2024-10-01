@@ -12,6 +12,7 @@ const MediaIcons = ({ iconSize }) => {
                     href="https://www.linkedin.com/in/jackson-kary-software-engineer/"
                     rel="noreferrer"
                     target='_blank'
+                    aria-label="LinkedIn Profile"
                 >
                     <FaLinkedin size={iconSize} />
                 </a>
@@ -22,6 +23,7 @@ const MediaIcons = ({ iconSize }) => {
                     href="https://github.com/JacksonKary"
                     rel="noreferrer"
                     target='_blank'
+                    aria-label="GitHub Profile"
                 >
                     <FaGithub size={iconSize} />
                 </a> 
@@ -32,6 +34,7 @@ const MediaIcons = ({ iconSize }) => {
                     href="https://www.parchment.com/u/award/73dc4264bf29e97bca200204dd07aa93"
                     rel="noreferrer"
                     target="_blank"
+                    aria-label="Official UMN Dipolma"
                 >
                     {/* Background effect on hover */}
                     <div className="absolute inset-0 h-5/6 bg-stone-400 bg-opacity-0 group-hover:bg-opacity-30 group-hover:shadow-sm duration-200 transition-150"></div>
