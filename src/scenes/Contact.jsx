@@ -111,7 +111,7 @@ function Contact() {
                         aria-label="Submit contact form"
                         onMouseEnter={() => setButtonText("Send")}
                         onMouseLeave={() => setButtonText("Let's connect!")}
-                        className="px-3 py-2 mb-10 bg-stone-600 font-semibold text-stone-300 hover:bg-stone-300 hover:text-stone-600 rounded-md transition-all duration-0 w-28"
+                        className="px-3 py-2 mb-10 bg-stone-600 font-semibold text-stone-300 hover:bg-stone-300 hover:text-stone-600 rounded-md transition-all duration-0 w-28 whitespace-nowrap"
                         type="submit"
                     >
                         {buttonText}
