@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.ebdc85d2.css",
-    "main.js": "/static/js/main.1b2199d9.js",
+    "main.css": "/static/css/main.1034e939.css",
+    "main.js": "/static/js/main.feb9b76a.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
-    "static/media/t3-fin.webp": "/static/media/t3-fin.d73ee71fff0c8804bf51.webp",
     "static/media/Tennis.webp": "/static/media/Tennis.d668281ab3f831bc88ec.webp",
     "static/media/Esports.webp": "/static/media/Esports.c8f7ead7459c2c700c6a.webp",
     "static/media/WhiteMarble-XL(1920x1080)-opt2.webp": "/static/media/WhiteMarble-XL(1920x1080)-opt2.6761fb03c5e56d52e7e1.webp",
+    "static/media/profile.webp": "/static/media/profile.6d0c37f5dcb3fa39ccb8.webp",
     "static/media/Knights.webp": "/static/media/Knights.2b9ffed16aec1b91e0df.webp",
     "static/media/HTTP-Server-Thumb.webp": "/static/media/HTTP-Server-Thumb.7b23dafac1cbfb56ef62.webp",
     "static/media/DroneSim.webp": "/static/media/DroneSim.72e496c53ba426ca9d17.webp",
@@ -18,12 +18,12 @@
     "static/media/diploma.webp": "/static/media/diploma.dc53770bb850afc56884.webp",
     "static/media/external-link-svgrepo-com.svg": "/static/media/external-link-svgrepo-com.eb94cbee470f12f999745563467be8dd.svg",
     "index.html": "/index.html",
-    "main.ebdc85d2.css.map": "/static/css/main.ebdc85d2.css.map",
-    "main.1b2199d9.js.map": "/static/js/main.1b2199d9.js.map",
+    "main.1034e939.css.map": "/static/css/main.1034e939.css.map",
+    "main.feb9b76a.js.map": "/static/js/main.feb9b76a.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebdc85d2.css",
-    "static/js/main.1b2199d9.js"
+    "static/css/main.1034e939.css",
+    "static/js/main.feb9b76a.js"
   ]
 }
