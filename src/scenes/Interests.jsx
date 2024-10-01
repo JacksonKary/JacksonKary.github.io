@@ -50,7 +50,7 @@ function Interest() {
                         visible: { opacity: 1, y: 0 },
                     }}
                 >
-                    <img src={tennis} alt="Picture of tennis racket and tennis shoes" className="absolute -inset-32 rounded-xl shadow-2xl h-64 mx-auto" />
+                    <img loading='lazy' src={tennis} alt="Picture of tennis racket and tennis shoes" className="absolute -inset-32 rounded-xl shadow-2xl h-64 mx-auto" />
 
                     <p className='mt-36 xs:mt-40 mb-10 xs:mb-20 px-10'>
                         Tennis is my favorite sport and hobby.
@@ -74,7 +74,7 @@ function Interest() {
                 >
                     <div className='flex-col justify-evenly'>
 
-                        <img src={aceBadge} alt="Picture of ACE Personal Trainer Badge" className="absolute -inset-32 mt-0 h-64 mx-auto" />
+                        <img loading='lazy' src={aceBadge} alt="Picture of ACE Personal Trainer Badge" className="absolute -inset-32 mt-0 h-64 mx-auto" />
 
                         <p className='mt-36 xs:mt-40 mb-10 xs:mb-20 px-10 text-white'>
                             I’m passionate about teaching and exercise, which led me to persue personal training as a hobby.
@@ -97,7 +97,7 @@ function Interest() {
                     }}
                 >
                     <div className='absolute -inset-32 h-60 xs:h-64 w-7/12 xs:w-1/2 bg-gradient-to-tr from-black bg-gray-500 rounded-xl shadow-2xl mx-auto'>
-                        <img src={esports} alt="Picture of Valorant agent with UMN jacket" className="h-60 xs:h-64 m-auto rounded-2xl mt-0 px-2" />
+                        <img loading='lazy' src={esports} alt="Picture of Valorant agent with UMN jacket" className="h-60 xs:h-64 m-auto rounded-2xl mt-0 px-2" />
                         {/* image credit: https://www.facebook.com/share/g/axUa2S5Gykp5BNHa/ */}
                     </div>
 
