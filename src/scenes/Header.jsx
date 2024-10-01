@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import signatureImage from '../assets/images/Signature.webp';
-import '../components/styles.css';
+import '../styles/styles.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Header = () => {
