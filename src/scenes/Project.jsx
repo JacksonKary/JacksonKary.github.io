@@ -13,6 +13,7 @@ function Project({ thumbnail, title, githubUrl, highlights, description }) {
           {/* Thumbnail */}
           <div className="relative rounded-md overflow-hidden transition-all duration-200 shadow-md group-hover:scale-95">
             <img
+              loading='lazy'
               src={thumbnail} alt="project thumbnail" className="w-full h-full object-cover rounded-md transition-transform duration-200 "
             />
             <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-30 transition-opacity duration-200 rounded-md"></div>
