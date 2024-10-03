@@ -16,7 +16,7 @@ function Project({ thumbnail, title, githubUrl, highlights, description }) {
               loading='lazy'
               src={thumbnail} alt="project thumbnail" className="w-full h-full object-cover rounded-md transition-transform duration-200 "
             />
-            <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-30 transition-opacity duration-200 rounded-md"></div>
+            <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-25 transition-opacity duration-200 rounded-md"></div>
           </div>
 
           {/* External Link Icon */}
