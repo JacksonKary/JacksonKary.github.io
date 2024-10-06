@@ -3,7 +3,8 @@ div {
 }
 
 body {
-  background-size: cover;
+  /* background-size: cover; */
+  background-size: auto;
   background-position: center;
   background-image: url('./assets/images/WhiteMarble-XL(1920x1080)-opt2.webp');
   background-attachment: fixed;
