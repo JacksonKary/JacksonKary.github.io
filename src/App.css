@@ -2,10 +2,24 @@ div {
   text-align: center;
 }
 
-body {
-  /* background-size: cover; */
-  background-size: auto;
+/* body {
+  background-size: cover;
   background-position: center;
   background-image: url('./assets/images/WhiteMarble-XL(1920x1080)-opt2.webp');
   background-attachment: fixed;
+} */
+
+/* Workaround for iOS to simulate a fixed background */
+body:before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/images/WhiteMarble-XL(1920x1080)-opt2.webp');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  pointer-events: none; /* Allow clicking through */
 }
