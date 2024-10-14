@@ -11,7 +11,7 @@ function Projects() {
         <div id="#projects" className='w-5/6 mx-auto'>
             {/* Projects Section Header */}
             <motion.div
-                className=""
+                className="pt-28 mb-20"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
@@ -21,14 +21,14 @@ function Projects() {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <h1 className='text-4xl pt-28 mb-10'>Projects</h1>
+                <h1 className='text-4xl'>Projects</h1>
 
                 <Underline />
 
                 <br />
 
                 {/* Projects Section Description */}
-                <p className='text-lg mb-20'>
+                <p className='text-lg'>
                     Explore some of my projects where I've put my skills into action and brought ideas to life.
                 </p>
             </motion.div>
