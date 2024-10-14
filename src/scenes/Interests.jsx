@@ -11,7 +11,7 @@ function Interest() {
         <div id="#interests" className='flex-col w-5/6 mx-auto pb-10'>
             {/* Interests Section Header */}
             <motion.div
-                className=""
+                className="pt-28"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
@@ -21,7 +21,7 @@ function Interest() {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <h1 className="text-4xl pt-28">Interests</h1>
+                <h1 className="text-4xl">Interests</h1>
 
                 <Underline />
 
@@ -40,7 +40,7 @@ function Interest() {
 
                 {/* Tennis */}
                 <motion.div
-                    className="relative bg-stone-300 bg-opacity-60 rounded-full shadow-2xl xl:shadow-md aspect-square      mb-20 xl:mb-0  h-auto w-full xxs:h-80 xxs:w-80 xs:h-96 xs:w-96 mx-auto"
+                    className="relative bg-stone-300 bg-opacity-60 rounded-full shadow-2xl xl:shadow-md aspect-square ring-1 ring-stone-300      mb-20 xl:mb-0  h-auto w-full xxs:h-80 xxs:w-80 xs:h-96 xs:w-96 mx-auto"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
@@ -62,7 +62,7 @@ function Interest() {
 
                 {/* Personal Training */}
                 <motion.div
-                    className="relative bg-stone-500 rounded-3xl shadow-2xl xl:shadow-md aspect-square      mb-20 xl:mb-0  h-auto w-full xxs:h-80 xxs:w-80  xs:h-96 xs:w-96 xl:w-80 xl+:w-96 mx-auto"
+                    className="relative bg-stone-500 rounded-3xl shadow-2xl xl:shadow-md aspect-square ring-1 ring-stone-600     mb-20 xl:mb-0  h-auto w-full xxs:h-80 xxs:w-80  xs:h-96 xs:w-96 xl:w-80 xl+:w-96 mx-auto"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
@@ -86,7 +86,7 @@ function Interest() {
 
                 {/* Esports */}
                 <motion.div
-                    className="relative bg-stone-300 bg-opacity-60 rounded-full shadow-2xl xl:shadow-md aspect-square      xl:mb-0  h-auto w-full xxs:h-80 xxs:w-80 xs:h-96 xs:w-96 mx-auto"
+                    className="relative bg-stone-300 bg-opacity-60 rounded-full shadow-2xl xl:shadow-md aspect-square ring-1 ring-stone-300     xl:mb-0  h-auto w-full xxs:h-80 xxs:w-80 xs:h-96 xs:w-96 mx-auto"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
