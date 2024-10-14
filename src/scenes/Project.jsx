@@ -4,7 +4,7 @@ import externalLink from '../assets/icons/external-link-svgrepo-com.svg';
 
 function Project({ thumbnail, title, githubUrl, highlights, description }) {
   return (
-    <div className="relative flex flex-col items-center text-sm mx-2 my-1 px-0 py-2 rounded-3xl">
+    <div className="relative flex flex-col items-center text-sm my-1 px-0 pb-2 rounded-md bg-neutral-300 bg-opacity-30 xl:bg-inherit ring-1 ring-stone-300 ring-opacity-85 xl:ring-0 shadow-xl xl:shadow-none">
 
       {/* Link to Project */}
       <a className="group lg:hover:text-stone-400 lg:transition lg:duration-200" href={githubUrl} target="_blank" title='Project GitHub'>
@@ -45,7 +45,7 @@ function Project({ thumbnail, title, githubUrl, highlights, description }) {
       </div>
 
       {/* Project Description */}
-      <p>{description}</p>
+      <p className='w-11/12'>{description}</p>
     </div>
   );
 }
