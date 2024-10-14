@@ -9,10 +9,10 @@ function Contact() {
     const [buttonText, setButtonText] = useState("Let's connect!");
 
     return (
-        <div>
+        <div id="#contact">
 
             <motion.div
-                className=""
+                className="pt-16 md:pt-28"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
@@ -22,7 +22,7 @@ function Contact() {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <h1 id="#contact" className="text-4xl pt-16 md:pt-28">Contact Me!</h1>
+                <h1 className="text-4xl">Contact Me!</h1>
 
                 <Underline />
                 <br />
