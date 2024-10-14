@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import signatureImage from '../assets/images/Signature.webp';
 import '../styles/styles.css';
+import '../styles/signature.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Header = () => {
@@ -52,14 +53,16 @@ const Header = () => {
 
                 </div>
                 {/* Mobile */}
-                <div id="menu" className={`flex flex-col lg:hidden items-center justify-end justify-self-end transition-all duration-300 top-0 py-0 px-0 w-1/4 h-full ${isOpen ? 'bg-opacity-75 shadow-xl backdrop-blur-sm bg-stone-200' : 'bg-opacity-0'} z-50`}>
+                <div id="menu" className={`flex flex-col lg:hidden items-center justify-end justify-self-end transition-all duration-300 top-0 py-0 px-0 w-1/4 h-full border-l-2 border-stone-600 border-opacity-0 ${isOpen ? 'bg-opacity-75 shadow-xl backdrop-blur-sm bg-stone-200 border-opacity-100' : 'bg-opacity-0 border-opacity-0'} z-50`}>
 
                     <button onClick={toggleMenu} aria-label="Toggle dropdown menu" className="flex items-center justify-center z-50">
                         {isOpen ? (
+                            // Close Menu
                             <svg className="h-8 self-center my-2" viewBox="0 0 24 24">
                                 <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
                             </svg>
                         ) : (
+                            // Open Menu
                             <svg className="h-8 self-center my-2" viewBox="0 0 24 24">
                                 <path d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2z" />
                             </svg>
@@ -68,11 +71,11 @@ const Header = () => {
 
 
                     <div className={`flex-col justify-between ${isOpen ? 'min-h-screen max-h-screen flex-col' : 'min-h-0 max-h-0 hidden'} transition-all duration-200 ease-in-out`}>
-                        <AnchorLink href="#home" onClick={toggleMenu} className="border-y-2 border-black flex items-center pt-8">Home</AnchorLink>
-                        <AnchorLink href="#skills" onClick={toggleMenu} className="border-b-2 border-black flex items-center pt-8">Skills</AnchorLink>
-                        <AnchorLink href="#projects" onClick={toggleMenu} className="border-b-2 border-black flex items-center pt-8">Projects</AnchorLink>
-                        <AnchorLink href="#interests" onClick={toggleMenu} className="border-b-2 border-black flex items-center pt-8">Interests</AnchorLink>
-                        <AnchorLink href="#contact" onClick={toggleMenu} className="border-b-2 border-black flex items-center pt-8">Contact</AnchorLink>
+                        <AnchorLink href="#home" onClick={toggleMenu} className="border-y-2 border-stone-600 flex items-center pt-8">Home</AnchorLink>
+                        <AnchorLink href="#skills" onClick={toggleMenu} className="border-b-2 border-stone-600 flex items-center pt-8">Skills</AnchorLink>
+                        <AnchorLink href="#projects" onClick={toggleMenu} className="border-b-2 border-stone-600 flex items-center pt-8">Projects</AnchorLink>
+                        <AnchorLink href="#interests" onClick={toggleMenu} className="border-b-2 border-stone-600 flex items-center pt-8">Interests</AnchorLink>
+                        <AnchorLink href="#contact" onClick={toggleMenu} className="border-b-2 border-stone-600 flex items-center pt-8">Contact</AnchorLink>
                     </div>
 
                 </div>
@@ -81,9 +84,10 @@ const Header = () => {
 
             {/* Signature Image */}
             <img
+                id="signatureImage"
                 src={signatureImage}
                 alt="Signature: Jackson Kary"
-                className={`xs:block fixed top-0 ml-vw-6 md+:ml-vw-8 lg:ml-vw-11 xl:ml-vw-15 mt-0.5 lg:mt-1 max-w-max max-h-max transition-all duration-150 ${isOpaque ? 'h-11 lg:h-14 ml-vw-2 xs:ml-vw-4 xl:ml-vw-8' : 'h-14 xs:h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36 md:mt-52 lg:mt-56'} z-50`}
+                className={`hidden xxxs:block fixed top-0 mt-0.5 lg:mt-1 max-w-max max-h-max transition-all duration-150 ${isOpaque ? 'h-11 lg:h-14 !mt-0.5 !lg:mt-1 !ml-vw-6 xs:!ml-vw-8 xl:!ml-vw-8' : 'h-14 xs:h-20 md:h-28 lg:h-32 xl:h-36'} z-50`}
             />
 
 
