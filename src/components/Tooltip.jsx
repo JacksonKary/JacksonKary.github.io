@@ -14,6 +14,7 @@ const Tooltip = ({ text, children }) => {
                 className={`absolute bottom-full left-1/2 transform -translate-x-1/2 mb-1.5 transition-opacity duration-100 ${
                     isHovered ? 'opacity-100' : 'opacity-0'
                 }`}
+                style={{ pointerEvents: 'none' }}
             >
                 <div className="relative bg-stone-800 text-stone-200 text-xs font-semibold rounded-lg shadow-lg px-2 py-1">
                     {text}
