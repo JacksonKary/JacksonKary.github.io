@@ -1,0 +1,106 @@
+/* Default style */
+#signatureImage {
+    position: fixed;
+    top: 0;
+    margin-left: 6vw;  /* Default margin for small widths */
+    max-width: max-content;
+    max-height: max-content;
+    transition: all 0.15s ease-in-out;
+    z-index: 50;
+}
+
+/* Width: md (768px) + Height: <=767px */
+@media (min-width: 768px) and (max-height: 767px) {
+    #signatureImage {
+        margin-top: 6vh;
+        margin-left: 8vw;
+    }
+}
+
+/* Width: md (768px) + Height: 768px */
+@media (min-width: 768px) and (min-height: 768px) {
+    #signatureImage {
+        margin-top: 10vh;
+        margin-left: 8vw;
+    }
+}
+
+/* Width: md (768px) + Height: 874px */
+@media (min-width: 768px) and (min-height: 874px) {
+    #signatureImage {
+        margin-top: 12vh;
+        margin-left: 8vw;
+    }
+}
+
+/* Width: md (768px) + Height: 953px */
+@media (min-width: 768px) and (min-height: 953px) {
+    #signatureImage {
+        margin-top: 15vh;
+        margin-left: 8vw;
+    }
+}
+
+/* Width: lg (1024px) + Height: <=767px */
+@media (min-width: 1024px) and (max-height: 767px) {
+    #signatureImage {
+        margin-top: 10vh;
+        margin-left: 11vw;
+    }
+}
+
+/* Width: lg (1024px) + Height: 768px */
+@media (min-width: 1024px) and (min-height: 768px) {
+    #signatureImage {
+        margin-top: 17vh;
+        margin-left: 11vw;
+    }
+}
+
+/* Width: lg (1024px) + Height: 874px */
+@media (min-width: 1024px) and (min-height: 874px) {
+    #signatureImage {
+        margin-top: 19vh;
+        margin-left: 11vw;
+    }
+}
+
+/* Width: lg (1024px) + Height: 953px */
+@media (min-width: 1024px) and (min-height: 953px) {
+    #signatureImage {
+        margin-top: 20vh;
+        margin-left: 11vw;
+    }
+}
+
+/* Width: xl (1280px) + Height: <=767px */
+@media (min-width: 1280px) and (max-height: 767px) {
+    #signatureImage {
+        margin-top: 15vh;
+        margin-left: 13vw;
+    }
+}
+
+/* Width: xl (1280px) + Height: 768px */
+@media (min-width: 1280px) and (min-height: 768px) {
+    #signatureImage {
+        margin-top: 15vh;
+        margin-left: 13vw;
+    }
+}
+
+/* Width: xl (1280px) + Height: 874px */
+@media (min-width: 1280px) and (min-height: 874px) {
+    #signatureImage {
+        margin-top: 17vh;
+        margin-left: 14vw;
+    }
+}
+
+/* Width: xl (1280px) + Height: 953px */
+@media (min-width: 1280px) and (min-height: 953px) {
+    #signatureImage {
+        margin-top: 25vh;
+        margin-left: 15vw;
+    }
+}
