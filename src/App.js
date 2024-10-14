@@ -1,7 +1,6 @@
 import './App.css';
 
 import React from 'react';
-import Header from './scenes/Header';
 import Home from './scenes/Home';
 import Skills from './scenes/Skills';
 import Projects from './scenes/Projects';
@@ -13,13 +12,9 @@ import Divider from './components/Divider';
 function App() {
 
   return (
-    <>
-      <div id="top" className='z-50'>
-        <Header />
-      </div>
-      
+    <>      
       <div id="content">
-        <div id="home" className='pt-16 sm:pt-24 flex justify-center max-w-full'>
+        <div id="home" className='flex justify-center pt-12 lg:pt-16 max-w-full'>
           <Home />
         </div>
         <Divider />
