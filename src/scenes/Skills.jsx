@@ -11,11 +11,11 @@ import { motion } from "framer-motion"
 function Skills() {
 
     return (
-        <div id="#skills" className='w-5/6 mx-auto'>
+        <div id="#skills" className='w-5/6 mx-auto min-h-100svh'>
             {/* Programming Language - Bubbles */}
             <div>
                 <motion.div
-                    className=""
+                    className="pt-28 mb-4"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
@@ -25,9 +25,10 @@ function Skills() {
                         visible: { opacity: 1, y: 0 },
                     }}
                 >
-                    <h1 className='text-4xl pt-28'>Programming Languages</h1>
-
+                    <h1 className='text-4xl'>Programming Languages</h1>
+                    
                     <Underline />
+                    
 
                 </motion.div>
 
@@ -51,7 +52,7 @@ function Skills() {
             {/* Web Development Stack - Bubbles */}
             <div>
                 <motion.div
-                    className=""
+                    className="mt-7"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
@@ -61,7 +62,7 @@ function Skills() {
                         visible: { opacity: 1, y: 0 },
                     }}
                 >
-                    <h1 className='text-4xl mt-7'>Web Development Technologies</h1>
+                    <h1 className='text-4xl'>Web Development Technologies</h1>
 
                     <Underline />
 
@@ -104,7 +105,7 @@ function Skills() {
             {/* Skills - Bubbles */}
             <div>
                 <motion.div
-                    className=""
+                    className="mt-7"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
@@ -114,7 +115,7 @@ function Skills() {
                         visible: { opacity: 1, y: 0 },
                     }}
                 >
-                    <h1 className='text-4xl mt-7'>Skills</h1>
+                    <h1 className='text-4xl'>Skills</h1>
 
                     <Underline />
 
