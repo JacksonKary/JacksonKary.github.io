@@ -31,7 +31,7 @@ const projects = [
         Enhanced the system by implementing asynchronous I/O support for program responsiveness.",
         thumbnail: uThread,
         githubUrl: "https://github.com/JacksonKary/uThread-Library",
-        highlights: ["C++", "Synchronization Primitives", "Asynchronous I/O", "Priority Inversion"]
+        highlights: ["C++", "Synchronization", "Asynchronous I/O", "Priority Inversion"]
     },
     {
         title: "HTTP Server (Multithreaded)",
