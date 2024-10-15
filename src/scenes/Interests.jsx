@@ -1,6 +1,7 @@
 import tennis from '../assets/images/Tennis.webp';
 import esports from '../assets/images/Esports.webp';
 import aceBadge from '../assets/images/aceBadge.webp';
+import info from '../assets/icons/info.webp';
 
 import Underline from '../components/Underline';
 
@@ -40,7 +41,7 @@ function Interest() {
 
                 {/* Tennis */}
                 <motion.div
-                    className="relative bg-stone-300 bg-opacity-60 rounded-full shadow-2xl xl:shadow-md aspect-square ring-1 ring-stone-300      mb-20 xl:mb-0  h-auto w-full xxs:h-80 xxs:w-80 xs:h-96 xs:w-96 mx-auto"
+                    className="relative bg-stone-300 bg-opacity-60 rounded-full shadow-2xl xl:shadow-md aspect-square ring-1 ring-stone-300 mb-20 xl:mb-0  h-auto w-full xxs:h-80 xxs:w-80 xs:h-96 xs:w-96 mx-auto"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
@@ -50,9 +51,9 @@ function Interest() {
                         visible: { opacity: 1, y: 0 },
                     }}
                 >
-                    <img loading='lazy' src={tennis} alt="Picture of tennis racket and tennis shoes" className="absolute -inset-32 rounded-xl shadow-2xl h-64 mx-auto" />
+                    <img loading='lazy' src={tennis} alt="Picture of tennis racket and tennis shoes" className="absolute -inset-32 rounded-xl shadow-2xl h-60 xs:h-64 mx-auto" />
 
-                    <p className='mt-36 xs:mt-40 mb-10 xs:mb-20 px-10'>
+                    <p className='mt-32 xs:mt-40 mb-10 xs:mb-20 px-10'>
                         Tennis is my favorite sport and hobby.
                         I enjoy the challenge and satisfaction of hitting clean shots.
                         After nearly a decade, I’m still excited to play every time.
@@ -62,7 +63,7 @@ function Interest() {
 
                 {/* Personal Training */}
                 <motion.div
-                    className="relative bg-stone-500 rounded-3xl shadow-2xl xl:shadow-md aspect-square ring-1 ring-stone-600     mb-20 xl:mb-0  h-auto w-full xxs:h-80 xxs:w-80  xs:h-96 xs:w-96 xl:w-80 xl+:w-96 mx-auto"
+                    className="relative bg-stone-500 rounded-3xl shadow-2xl xl:shadow-md aspect-square ring-1 ring-stone-600  mb-20 xl:mb-0  h-auto w-full xxs:h-80 xxs:w-80  xs:h-96 xs:w-96 xl:w-80 xl+:w-96 mx-auto"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
@@ -74,10 +75,10 @@ function Interest() {
                 >
                     <div className='flex-col justify-evenly'>
 
-                        <img loading='lazy' src={aceBadge} alt="Picture of ACE Personal Trainer Badge" className="absolute -inset-32 mt-0 h-64 mx-auto" />
+                        <img loading='lazy' src={aceBadge} alt="Picture of ACE Personal Trainer Badge" className="absolute -inset-32 mt-0 h-56 xs:h-64 mx-auto" />
 
-                        <p className='mt-36 xs:mt-40 mb-10 xs:mb-20 px-10 text-white'>
-                            I’m passionate about teaching and exercise, which led me to persue personal training as a hobby.
+                        <p className='mt-32 xs:mt-40 mb-10 xs:mb-20 px-10 text-white'>
+                            I’m passionate about teaching and exercise, which led me to pursue personal training as a hobby.
                             Feel free to ask me any exercise-related questions—I’m happy to help for free!
                         </p>
 
@@ -96,13 +97,20 @@ function Interest() {
                         visible: { opacity: 1, y: 0 },
                     }}
                 >
-                    <div className='absolute -inset-32 h-60 xs:h-64 w-7/12 xs:w-1/2 bg-gradient-to-tr from-black bg-gray-500 rounded-xl shadow-2xl mx-auto'>
-                        <img loading='lazy' src={esports} alt="Picture of Valorant agent with UMN jacket" className="h-60 xs:h-64 m-auto rounded-2xl mt-0 px-2" />
-                        {/* image credit: https://www.facebook.com/share/g/axUa2S5Gykp5BNHa/ */}
+                    <div className='absolute -inset-32 h-56 xs:h-64 w-[54%] xs:w-1/2 bg-gradient-to-tr from-black bg-gray-500 rounded-xl shadow-2xl mx-auto'>
+                        <div className='relative'>
+                            <img loading='lazy' src={esports} alt="Picture of Valorant agent with UMN jacket" className="h-56 xs:h-64 m-auto rounded-2xl mt-0 px-2" />
+                            {/* image credit: https://www.facebook.com/share/g/axUa2S5Gykp5BNHa/ */}
+                            <a href='https://www.facebook.com/share/g/axUa2S5Gykp5BNHa/' target="_blank" title='Link to Image Source' className='hidden md:block absolute right-3 bottom-2 rounded-full group'>
+                                <img loading='lazy' src={info} alt="Link to image source" className='h-5 rounded-full group-hover:bg-black'/>
+                            </a>
+                        </div>
+                        
+                        
                     </div>
 
-                    <p className='mt-32 xs:mt-40 mb-10 xs:mb-20 px-10'>
-                        At university, I joined UMN Valorant, a collegiate esports team competing in Valorant, a 5v5 tactical first-person shooter game.
+                    <p className='mt-28 xs:mt-40 mb-10 xs:mb-20 px-7'>
+                        At university, I joined UMN Valorant, a collegiate esports team competing in Valorant, a 5v5 strategic first-person shooter game.
                         I was on the varsity roster for three semesters and made four lifelong friends.
                     </p>
 
