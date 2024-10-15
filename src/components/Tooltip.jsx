@@ -1,20 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 
 const Tooltip = ({ text, children }) => {
     const [isHovered, setIsHovered] = useState(false);
+    const timeoutRef = useRef(null); // Ref to store the timeout ID
+
+    const handleMouseEnter = () => {
+        // Clear any pending timeouts to prevent premature hiding
+        if (timeoutRef.current) clearTimeout(timeoutRef.current);
+        setIsHovered(true); // Show tooltip
+    };
+
+    const handleMouseLeave = () => {
+        // Add a short delay to prevent the tooltip from closing immediately,
+        // allowing the user to move the cursor over the tooltip without it disappearing.
+        timeoutRef.current = setTimeout(() => {
+            setIsHovered(false); // Hide tooltip after delay
+        }, 100);
+    };
 
     return (
         <div
             className="relative flex items-center"
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
         >
             {children}
             <div
                 className={`absolute bottom-full left-1/2 transform -translate-x-1/2 mb-1.5 transition-opacity duration-100 ${
-                    isHovered ? 'opacity-100' : 'opacity-0'
+                    isHovered ? 'opacity-100 block' : 'opacity-0 hidden'
                 }`}
-                style={{ pointerEvents: 'none' }}
             >
                 <div className="relative bg-stone-800 text-stone-200 text-xs font-semibold rounded-lg shadow-lg px-2 py-1">
                     {text}
