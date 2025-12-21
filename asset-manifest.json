@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.f298f4ec.css",
-    "main.js": "/static/js/main.b32e0c88.js",
-    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "main.css": "/static/css/main.d941ec11.css",
+    "main.js": "/static/js/main.e5bac962.js",
+    "static/js/453.a7d99afe.chunk.js": "/static/js/453.a7d99afe.chunk.js",
     "static/media/Tennis.webp": "/static/media/Tennis.d668281ab3f831bc88ec.webp",
     "static/media/Esports.webp": "/static/media/Esports.c8f7ead7459c2c700c6a.webp",
     "static/media/WhiteMarble-XL(1920x1080)-opt2.webp": "/static/media/WhiteMarble-XL(1920x1080)-opt2.6761fb03c5e56d52e7e1.webp",
@@ -19,12 +19,12 @@
     "static/media/diploma.webp": "/static/media/diploma.dc53770bb850afc56884.webp",
     "static/media/external-link-svgrepo-com.svg": "/static/media/external-link-svgrepo-com.eb94cbee470f12f999745563467be8dd.svg",
     "index.html": "/index.html",
-    "main.f298f4ec.css.map": "/static/css/main.f298f4ec.css.map",
-    "main.b32e0c88.js.map": "/static/js/main.b32e0c88.js.map",
-    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+    "main.d941ec11.css.map": "/static/css/main.d941ec11.css.map",
+    "main.e5bac962.js.map": "/static/js/main.e5bac962.js.map",
+    "453.a7d99afe.chunk.js.map": "/static/js/453.a7d99afe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f298f4ec.css",
-    "static/js/main.b32e0c88.js"
+    "static/css/main.d941ec11.css",
+    "static/js/main.e5bac962.js"
   ]
 }
